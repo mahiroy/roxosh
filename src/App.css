@@ -1,0 +1,172 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+a{
+  color: none;
+  text-decoration:none;
+}
+
+.border2{
+  border: 2px solid rgb(8, 173, 8);
+  
+}
+
+.top-bg{
+  background-color: rgb(248, 248, 248);
+}
+
+
+
+.all-ads-bg{
+  background-color: #ffffff;
+}
+
+.all-ads-heading{
+  font-size: 20px;
+  
+}
+
+.all-ads-img-responsive{
+  width: 70%;
+  height: 100%;
+}
+.img-responsive{
+  width: 100%;
+  height: 100%;
+}
+.b-shad {
+  box-shadow: 0 0px 20px rgb(223, 221, 221);
+}
+
+
+.t-shad {
+  text-shadow:0px 0.1px  1px  rgb(223, 221, 221);
+}
+
+.home-p{
+  font-size: 14px;
+  
+}
+
+
+
+
+.icon-top-premium-ar:before {
+  content: "Top Ads";
+  color: #5D4582;
+  font-size: 20px;
+}
+.icon-top-listing:before {
+  content: "Top Ads";
+  color: #fff;
+}
+
+.menu{
+  font-size: 19px;
+  width: 100%;
+  
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color:rgb(7, 7, 7);
+}
+ 
+
+
+.ads-img{
+  width:130px;
+  height:150px;
+  padding:10px;
+} 
+
+.home-img{
+  width: 300;
+  height: 250;
+}
+
+.bg-top{
+  background-color:#fffdea;
+}
+
+
+.details-title{
+  font-size: 32px;
+  padding: 2px;
+}
+
+.details-submenu{
+  font-size: 12px;
+}
+
+
+
+ .details-top-ad{
+   width: 200px;
+   font-size: 22px;
+ }
+
+
+@media (max-width: 576px) { 
+  .ads-img{
+    width:100%;
+    height:100%;
+    padding:40px
+ 
+  }
+
+  .details-title{
+    font-size: 22px;
+    padding: 2px;
+  }
+  
+    }
+
+
+
